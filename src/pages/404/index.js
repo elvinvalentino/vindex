@@ -18,6 +18,8 @@ const useStyles = makeStyles({
 })
 
 const PageNotFound = () => {
+  document.title = "VINDEX | 404 NOT FOUND"
+
   const classes = useStyles();
 
   return (

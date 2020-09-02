@@ -5,6 +5,8 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 
 const PokemonNotFound = ({ query }) => {
+  document.title = "VINDEX | POKEMON NOT FOUND"
+
   return (
     <Container maxWidth="lg">
       <Typography variant="h5" component="h1">

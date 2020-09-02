@@ -24,6 +24,8 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const Home = ({ pokemons, pending, error, limit, fetchData, fetchMore, resetLimit }) => {
+  document.title = "VINDEX"
+
   const classes = useStyles();
 
   useEffect(() => {
